@@ -1,0 +1,75 @@
+{
+    "btn": "Details",
+    "services-items": [
+        {
+            "id": "1",
+            "img": "/img/Services/icon-1.png",
+            "href": "/services/marriage-application",
+            "target": "_self",
+            "text": "How to apply for marriage online"
+        },
+        {
+            "id": "2",
+            "img": "/img/Services/icon-2.png",
+            "href": "/services/insurance",
+            "target": "_self",
+            "text": "Insurance"
+        },
+        {
+            "id": "3",
+            "img": "/img/Services/icon-3.png",
+            "href": "https://gotovo.pasport.org.ua/",
+            "target": "_blank",
+            "text": "Passport service"
+        },
+        {
+            "id": "4",
+            "img": "/img/Services/write6.png",
+            "href": "/services/written-translation",
+            "target": "_self",
+            "text": "Written translation"
+        },
+        {
+            "id": "5",
+            "img": "/img/Services/notary3.png",
+            "href": "/services/notarized-translation",
+            "target": "_self",
+            "text": "Notarized translation"
+        },
+        {
+            "id": "6",
+            "img": "/img/Services/icon-4.png",
+            "href": "/services/apostillization",
+            "target": "_self",
+            "text": "Apostilization of documents"
+        },
+        {
+            "id": "7",
+            "img": "/img/Services/icon-5.png",
+            "href": "/services/events",
+            "target": "_self",
+            "text": "Hosting the event"
+        },
+        {
+            "id": "8",
+            "img": "/img/Services/icon-6.png",
+            "href": "https://novaposhta.ua/",
+            "target": "_blank",
+            "text": "Post office \"Nova Poshta\" №400"
+        },
+        {
+            "id": "9",
+            "img": "/img/Services/icon-7.png",
+            "href": "https://www.ups.com/ua/uk/Home.page",
+            "target": "_blank",
+            "text": "UPS"
+        },
+        {
+            "id": "10",
+            "img": "/img/Services/diya-logo.png",
+            "href": "https://ca.diia.gov.ua/",
+            "target": "_blank",
+            "text": "\"Diia\" QES"
+        }
+    ]
+}

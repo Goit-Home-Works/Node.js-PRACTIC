@@ -1,0 +1,67 @@
+.blog {
+    background-color: $bg-light;
+}
+
+@media (min-width: 320px) and (max-width: 600px) {
+    .blog {
+        padding: 30px 15px 60px;
+    }
+
+    .item {
+        width: 90%;
+        max-width: 405px;
+        margin: 0 auto 30px;
+    }
+}
+
+@media (min-width: 600px) {
+    .blog {
+        padding: 60px 0 110px;
+    }
+
+    .item {
+        width: 256px;
+        margin: 0 10px 30px;
+    }
+
+    .item {
+        &:nth-child(2n+1) { order: 1; }
+        &:nth-child(2n)   { order: 2; }
+    }
+
+    .list {
+        display: flex;
+        flex-flow: column wrap;
+        align-content: center;
+        // height: 4795px;
+    }
+    
+    .list {
+        height: 2460px;
+    }
+}
+
+@media (min-width: 880px) {
+    .list {
+        height: 1650px;
+    }
+
+    .item {
+        &:nth-child(3n+1) { order: 1; }
+        &:nth-child(3n+2) { order: 2; }
+        &:nth-child(3n)   { order: 3; }
+    }
+}
+
+@media (min-width: 1260px) {
+    .list {
+        height: 1230px;
+    }
+
+    .item {
+        &:nth-child(4n+1) { order: 1; }
+        &:nth-child(4n+2) { order: 2; }
+        &:nth-child(4n+3) { order: 3; }
+        &:nth-child(4n)   { order: 4; }
+    }
+}

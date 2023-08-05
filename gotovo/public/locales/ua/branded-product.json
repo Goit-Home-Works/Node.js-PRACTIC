@@ -1,0 +1,33 @@
+{
+    "title": "Брендована продукція",
+    "products": [
+        {
+            "id": "1",
+            "name": "Папка для свідоцтва про шлюб \"ГОТОВО\"",
+            "price": "660 грн",
+            "img": "/img/branded-product/papka.jpg",
+            "link": "/branded-products/folder-gotovo"
+        },
+        {
+            "id": "2",
+            "name": "Папка для свідоцтва про шлюб \"Ексклюзив\"",
+            "price": "795 грн",
+            "img": "/img/branded-product/papka-2.jpg",
+            "link": "/branded-products/folder-exclusive"
+        },
+        {
+            "id": "3",
+            "name": "Ручка металева \"ГОТОВО\"",
+            "price": "50.40 грн",
+            "img": "/img/branded-product/pen.jpg",
+            "link": "/branded-products/pen"
+        },
+        {
+            "id": "4",
+            "name": "Блокнот \"ГОТОВО\"",
+            "price": "217 грн",
+            "img": "/img/branded-product/notebook.jpg",
+            "link": "/branded-products/notebook"
+        }
+    ]
+}

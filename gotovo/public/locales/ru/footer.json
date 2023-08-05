@@ -1,0 +1,119 @@
+{
+    "schedule": {
+        "workDays": "Пн-Пт",
+        "weekend": "Сб-Вс"
+    },
+    "menu": [
+        {
+            "id": "1",
+            "type": "_about",
+            "title": "О центре",
+            "list": [
+                {
+                    "id": "1",
+                    "href": "/about-us",
+                    "text": "Про \"Готово!\""
+                },
+                {
+                    "id": "2",
+                    "href": "/about-us/idea",
+                    "text": "Идея возникновения"
+                },
+                {
+                    "id": "3",
+                    "href": "/about-us/building",
+                    "text": "Строительство"
+                },
+                {
+                    "id": "4",
+                    "href": "/about-us/advantages",
+                    "text": "Преимущества"
+                },
+                {
+                    "id": "5",
+                    "href": "/about-us/service",
+                    "text": "Обслуживание"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "type": "_services",
+            "title": "Услуги",
+            "list": [
+                {
+                    "id": "1",
+                    "href": "/wedding-for-day",
+                    "target": "_self",
+                    "text": "Брак за сутки"
+                },
+                {
+                    "id": "2",
+                    "href": "/services/insurance",
+                    "target": "_self",
+                    "text": "Страхование"
+                },
+                {
+                    "id": "3",
+                    "href": "https://gotovo.pasport.org.ua/",
+                    "target": "_blank",
+                    "text": "Паспортный сервис"
+                },
+                {
+                    "id": "4",
+                    "href": "/services/written-translation",
+                    "target": "_self",
+                    "text": "Письменный перевод"
+                },
+                {
+                    "id": "5",
+                    "href": "/services/notarized-translation",
+                    "target": "_self",
+                    "text": "Нотариальный перевод"
+                },
+                {
+                    "id": "6",
+                    "href": "/services/apostillization",
+                    "target": "_self",
+                    "text": "Апостилизация"
+                },
+                {
+                    "id": "7",
+                    "href": "/services/events",
+                    "target": "_self",
+                    "text": "Проведение мероприятий"
+                },
+                {
+                    "id": "8",
+                    "href": "https://novaposhta.ua/",
+                    "target": "_blank",
+                    "text": "Новая почта"
+                },
+                {
+                    "id": "9",
+                    "href": "https://www.ups.com/ua/uk/Home.page",
+                    "target": "_blank",
+                    "text": "UPS - Украина"
+                },
+                {
+                    "id": "10",
+                    "href": "https://ca.diia.gov.ua/",
+                    "target": "_blank",
+                    "text": "Дия"
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "type": "_contacts",
+            "title": "Контакты",
+            "list": [
+                {
+                    "id": "1",
+                    "href": "/contacts",
+                    "text": "Контакты"
+                }
+            ]
+        }
+    ]
+}

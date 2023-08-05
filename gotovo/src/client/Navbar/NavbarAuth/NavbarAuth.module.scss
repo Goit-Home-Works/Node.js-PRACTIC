@@ -1,0 +1,56 @@
+.link {
+    color: $text-color;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+@media (min-width: 320px) and (max-width: 1260px) {
+    .content {
+        position: relative;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &::before {
+            content: '';
+            position: absolute;
+            width: 50px;
+            height: 6px;
+            left: 50%;
+            transform: translateX(-50%);
+            top: -10px;
+            background-color: $main-color;
+            opacity: 0.6;
+        }
+
+        &.desktop {
+            display: none;
+        }
+    }
+
+    .link {
+        font-size: 18px;
+        display: inline-block;
+        padding: 13px;
+        transition: 0.3s;
+    
+        &:hover {
+            color: $main-color;
+        }
+    }
+}
+
+@media (min-width: 1261px) {
+    .link {
+        font-size: 16px;
+        cursor: pointer;
+        display: inline-block;
+        margin-left: 30px;
+        transition: 0.3s;
+    
+        &:hover {
+            color: $main-color;
+        }
+    }
+}

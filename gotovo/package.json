@@ -1,0 +1,50 @@
+{
+  "name": "gotovo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "docker:build": "docker build -t yaroslavkulpan/gotovo-client .",
+    "docker:start": "docker run -p 3000:3000 -d yaroslavkulpan/gotovo-client",
+    "docker:push": "docker push yaroslavkulpan/gotovo-client:latest"
+  },
+  "dependencies": {
+    "@babel/core": "^7.14.2",
+    "@babel/preset-env": "^7.14.2",
+    "@babel/preset-react": "^7.13.13",
+    "@fullcalendar/common": "^5.7.0",
+    "@fullcalendar/daygrid": "^5.7.0",
+    "@fullcalendar/interaction": "^5.7.0",
+    "@fullcalendar/react": "^5.7.0",
+    "@fullcalendar/timegrid": "^5.7.0",
+    "@reach/portal": "^0.15.0",
+    "axios": "^0.21.1",
+    "babel-plugin-transform-require-ignore": "^0.1.1",
+    "body-scroll-lock": "^3.1.5",
+    "classnames": "^2.3.1",
+    "formik": "^2.2.6",
+    "i18next": "^20.2.2",
+    "js-cookie": "^2.2.1",
+    "moment": "^2.29.1",
+    "next": "10.2.0",
+    "next-i18next": "^8.2.0",
+    "next-transpile-modules": "^7.0.0",
+    "prop-types": "^15.7.2",
+    "react": "17.0.2",
+    "react-datepicker": "^4.1.1",
+    "react-dom": "17.0.2",
+    "react-dropzone-uploader": "^2.11.0",
+    "react-facebook-login": "^4.1.1",
+    "react-text-mask": "^5.4.3",
+    "react-transition-group": "^4.4.1",
+    "sass": "^1.32.12",
+    "socket.io-client": "2.3",
+    "yup": "^0.32.9"
+  },
+  "devDependencies": {
+    "@types/react-facebook-login": "^4.1.4",
+    "prettier": "^2.3.0"
+  }
+}

@@ -1,0 +1,62 @@
+.article {
+    position: relative;
+
+    &-heading {
+        font-size: 30px;
+        font-weight: 700;
+        letter-spacing: 0.02em;
+        line-height: 1.2em;
+        margin-bottom: 20px;
+    }
+
+    &-text {
+        margin: 0.8em 0;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1.3em;
+        letter-spacing: 0.02em;
+    }
+
+    &-list-item {
+        margin: 0 0 0.5em 15px;
+        line-height: 1.2em;
+    }
+
+    &::before, &::after {
+        content: '';
+        display: inline-block;
+        position: absolute;
+        width: 43px;
+        height: 53px;
+        background: url('/img/corner.png') center/cover no-repeat;
+    }
+
+    &::before {
+        transform: rotate(180deg);
+        top: -20px;
+        left: -23px;
+    }
+
+    &::after {
+        bottom: -20px;
+        right: -23px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .article {
+        padding: 0 15px;
+
+        &::before {
+            left: -5px;
+        }
+    
+        &::after {
+            right: -5px;
+        }
+    }
+}
+
+@media (min-width: 481px) {
+
+}

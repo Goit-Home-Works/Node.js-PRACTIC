@@ -1,0 +1,19 @@
+.title {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.02em;
+    line-height: 1.15;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .title {
+        margin-bottom: 40px;
+    }
+}
+
+@media (min-width: 481px) {
+    .title {
+        margin-bottom: 60px;
+    }
+}

@@ -1,0 +1,8 @@
+{
+  "title": "Увійти",
+  "form": {
+    "email": "Email",
+    "password": "Пароль",
+    "submitButton": "Увійти"
+  }
+}

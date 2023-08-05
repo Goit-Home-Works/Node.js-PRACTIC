@@ -1,0 +1,129 @@
+{
+    "menu": [
+        {
+            "id": "1",
+            "href": "/wedding-for-day",
+            "text": "Marriage within 24 Hours"
+        },
+        {
+            "id": "2",
+            "href": "/about-us",
+            "text": "About us",
+            "list": [
+                {
+                    "id": "1",
+                    "href": "/about-us",
+                    "text": "About \"GOTOVO!\""
+                },
+                {
+                    "id": "2",
+                    "href": "/about-us/idea",
+                    "text": "The idea to establish"
+                },
+                {
+                    "id": "3",
+                    "href": "/about-us/building",
+                    "text": "Construction history"
+                },
+                {
+                    "id": "4",
+                    "href": "/about-us/advantages",
+                    "text": "Our advantages"
+                },
+                {
+                    "id": "5",
+                    "href": "/about-us/service",
+                    "text": "Service"
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "href": "/services",
+            "text": "Services",
+            "list": [
+                {
+                    "id": "1",
+                    "href": "/services/marriage-application",
+                    "target": "_self",
+                    "text": "How to apply for marriage online"
+                },
+                {
+                    "id": "2",
+                    "href": "/services/insurance",
+                    "target": "_self",
+                    "text": "Insurance"
+                },
+                {
+                    "id": "3",
+                    "href": "https://gotovo.pasport.org.ua/",
+                    "target": "_blank",
+                    "text": "Passport service"
+                },
+                {
+                    "id": "4",
+                    "href": "/services/written-translation",
+                    "target": "_self",
+                    "text": "Written translation"
+                },
+                {
+                    "id": "5",
+                    "href": "/services/notarized-translation",
+                    "target": "_self",
+                    "text": "Notarized translation"
+                },
+                {
+                    "id": "6",
+                    "href": "/services/apostillization",
+                    "target": "_self",
+                    "text": "Apostilization"
+                },
+                {
+                    "id": "7",
+                    "href": "/services/events",
+                    "target": "_self",
+                    "text": "Hosting the event"
+                },
+                {
+                    "id": "8",
+                    "href": "https://novaposhta.ua/",
+                    "target": "_blank",
+                    "text": "Nova Poshta"
+                },
+                {
+                    "id": "9",
+                    "href": "https://www.ups.com/ua/uk/Home.page",
+                    "target": "_blank",
+                    "text": "UPS - Ukraine"
+                },
+                {
+                    "id": "10",
+                    "href": "https://ca.diia.gov.ua/",
+                    "target": "_blank",
+                    "text": "Diia"
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "href": "/branded-products",
+            "text": "Branded products"
+        },
+        {
+            "id": "5",
+            "href": "/contacts",
+            "text": "Contacts"
+        },
+        {
+            "id": "6",
+            "href": "/news",
+            "text": "Blog"
+        }
+    ],
+    "auth": {
+        "register": "Register",
+        "login": "Login",
+        "logout": "Logout",
+        "profile": "Profile"
+    }
+}

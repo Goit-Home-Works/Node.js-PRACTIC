@@ -1,0 +1,17 @@
+{
+    "label": "Leave a request now and get a free consultation!",
+    "input-name": "Name",
+    "input-email": "Email",
+    "input-tel": "Phone number",
+    "input-text": "Your message",
+    "btn": "Get a consultation",
+    "tel-name": "Phone number",
+    "tel-text": "0 800 300 803",
+    "schedule-name": "Work schedule",
+    "schedule-text-1": "Mon - Fri",
+    "schedule-text-2": "9:00 — 20:00",
+    "schedule-text-3": "Sat - Sun",
+    "schedule-text-4": "9:00 — 18:00",
+    "address-name": "Address",
+    "address-text": "01010, Kyiv, Henerala Almazova St, 11"
+}

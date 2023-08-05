@@ -1,0 +1,15 @@
+.services {
+    background-color: $bg-light;
+
+    @media (min-width: 320px) and (max-width: 480px) {
+        padding: 30px 15px;
+    }
+
+    @media (min-width: 481px) and (max-width: 1260px) {
+        padding: 40px 20px 60px;
+    }
+
+    @media (min-width: 1260px) {
+        padding: 60px 0 100px;
+    }
+}

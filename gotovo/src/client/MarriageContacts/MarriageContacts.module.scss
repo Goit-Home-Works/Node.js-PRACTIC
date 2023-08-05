@@ -1,0 +1,97 @@
+.section {
+    background-color: $bg-light;
+
+    @media (min-width: 320px) and (max-width: 480px) {
+        padding: 30px 15px;
+    }
+
+    @media (min-width: 481px) and (max-width: 1260px) {
+        padding: 45px 30px;
+    }
+
+    @media (min-width: 1260px) {
+        padding: 60px 0;
+    }
+}
+
+.form {
+    display: grid;
+}
+
+.input {
+    width: 100%;
+    padding: 16px 27px;
+    background-color: #fff;
+    box-shadow: 0px 4px 4px rgba(121, 85, 72, 0.04), 0px 4px 16px rgba(121, 85, 72, 0.08);
+    border-radius: 4px;
+    margin-bottom: 30px;
+    
+    &:focus {
+        outline: 2px solid $main-color;
+    }
+}
+
+.contacts-item {
+    display: inline-block;
+    margin-right: 38px;
+}
+
+.schedule {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-gap: 10px;
+    justify-content: start;
+}
+
+.map {
+    width: 100%;
+    height: 390px;
+}
+
+@media (min-width: 320px) and (max-width: 900px) {
+    .form {
+        max-width: 500px;
+        margin: 0 auto 60px;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    .contacts-items {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .contacts-item {
+        margin-bottom: 25px;
+    }
+
+    .map {
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 900px) {
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(45%, 500px));
+        grid-column-gap: 30px;
+        justify-content: space-between;
+    }
+
+    .label {
+        text-align: start;
+    }
+
+    .contacts-item {
+        margin-bottom: 20px;
+    }
+
+    .btn {
+        padding: 12px 30px;
+        width: max-content;
+        justify-self: end;
+    }
+}

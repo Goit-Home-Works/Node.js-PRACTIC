@@ -1,0 +1,52 @@
+.navigate {
+    background-color: $bg-light;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .btn {
+        width: 100%;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 1400px) {
+    .container {
+        max-width: 80vw;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 1400px) {
+    .navigate {
+        padding: 60px 15px;
+    }
+
+    .ornament {
+        display: none;
+    }
+
+    .btn {
+        margin-top: 40px;
+    }
+}
+
+@media (min-width: 1300px) {
+    .navigate {
+        padding: 80px 0;
+    }
+
+    .content {
+        position: relative;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+    }
+
+    .article {
+        max-width: 50%;
+    }
+
+    .btn {
+        margin-left: 120px;
+    }
+}

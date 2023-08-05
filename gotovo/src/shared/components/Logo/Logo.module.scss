@@ -1,0 +1,52 @@
+.logo {
+    display: inline-block;
+    color: $text-color;
+    text-decoration: none;
+    text-align: center;
+}
+
+.text {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+}
+
+.name {
+    position: relative;
+    font-size: 28px;
+    font-weight: 700;
+    padding: 6px 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+
+    &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: -8px;
+        border-top: 20px solid transparent;
+        border-right: 4px solid transparent;
+    }
+}
+
+.mainName {
+    @extend .name;
+    background-color: $main-color;
+
+    &::after {
+        border-bottom: 20px solid $main-color;
+        border-left: 4px solid $main-color;
+    }
+}
+
+.lightName {
+    @extend .name;
+    background-color: $bg-light;
+
+    &::after {
+        border-bottom: 20px solid $bg-light;
+        border-left: 4px solid $bg-light;
+    }
+}

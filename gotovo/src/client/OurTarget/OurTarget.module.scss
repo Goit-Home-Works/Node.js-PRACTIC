@@ -1,0 +1,125 @@
+.our-target {
+    background-color: $bg-light;
+}
+
+.map {
+    &-text {
+        position: absolute;
+        z-index: 1;
+
+        &-bold {
+            font-weight: 700;
+        }
+
+        &-thin {
+            font-weight: 500;
+        }
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .map-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        top: 18%;
+        width: max-content;
+
+        &-bold {
+            font-size: 24px;
+            margin-bottom: 6px;
+        }
+
+        &-thin {
+            font-size: 14px;
+            margin-bottom: 12px;
+        }
+    }
+
+    .slash {
+        display: none;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 1400px) {
+    .our-target {
+        padding: 60px 15px 30px;
+    }
+
+    .article {
+        margin-bottom: 70px;
+    }
+
+    .ornament {
+        display: none;
+    }
+
+    .map {
+        position: relative;
+        text-align: center;
+
+        &-text {
+            transform: translateY(-50%);
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1400px) {
+    .content {
+        max-width: 80vw;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 481px) {
+    .map-text {
+        display: grid;
+        grid-auto-flow: column;
+        grid-template-rows: repeat(2, auto);
+        justify-content: center;
+        grid-gap: 20px;
+        top: 28%;
+
+        &-bold {
+            font-size: 28px;
+            justify-self: center;
+        }
+
+        &-thin {
+            font-size: 14px;
+            justify-self: center;
+        }
+    }
+}
+
+@media (min-width: 1400px) {
+    .our-target {
+        position: relative;
+        padding: 40px 0 270px;
+    }
+
+    .content {
+        position: relative;
+    }
+
+    .article {
+        max-width: 50%;
+    }
+
+    .map {
+        position: absolute;
+        right: 40px;
+        top: 105px;
+
+        &-text {
+            top: 120px;
+            left: 120px;
+        }
+    }
+}

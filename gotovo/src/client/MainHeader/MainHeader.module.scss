@@ -1,0 +1,18 @@
+.content {
+    display: grid;
+    margin-top: 50px;
+
+    @media (min-width: 320px) and (max-width: 480px) {
+        grid-gap: 16px;
+    }
+
+    @media (min-width: 481px) and (max-width: 1260px) {
+        justify-content: center;
+    }
+
+    @media (min-width: 481px) {
+        grid-template-columns: repeat(auto-fit, minmax(163px, max-content));
+        align-items: center;
+        grid-gap: 30px;
+    }
+}

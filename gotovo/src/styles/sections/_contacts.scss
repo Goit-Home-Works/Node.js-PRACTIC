@@ -1,0 +1,87 @@
+.contacts {
+    background-color: $bg-light;
+
+    &-heading {
+        font-size: 30px;
+        line-height: 1.2em;
+        font-weight: 700;
+    }
+
+    &-item {
+        position: relative;
+        margin-bottom: 40px;
+    }
+
+    &-icon {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 10px;
+        left: 0;
+        background-color: $main-color;
+        border-radius: 50%;
+        width: 28px;
+        height: 28px;
+    }
+
+    &-name {
+        font-size: 18px;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+
+    &-text, &-link {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.2em;
+    }
+
+    &-link {
+        text-decoration: none;
+        color: $text-color;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .contacts {
+        padding: 30px 15px 0;
+    
+        &-heading {
+            max-width: 65%;
+            margin-bottom: 40px;
+        }
+    
+        &-img {
+            width: 100%;
+            margin-top: 40px;
+        }
+    
+        &-item {
+            padding-left: 50px;
+        }
+    }
+}
+
+@media (min-width: 481px) {
+    .contacts {
+        position: relative;
+        padding: 100px 0 140px;
+    
+        &-heading {
+            margin-bottom: 60px;
+        }
+    
+        &-img {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            width: 480px;
+            height: 555px;
+        }
+    
+        &-item {
+            padding-left: 60px;
+        }
+    }
+}

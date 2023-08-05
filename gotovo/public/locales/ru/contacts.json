@@ -1,0 +1,32 @@
+{
+    "heading-1": "Мы рады вам помочь",
+    "heading-2": "Контакты",
+    "list": [
+        {
+            "id": "1",
+            "name": "Адрес",
+            "text": "01010, г. Киев, улица Генерала Алмазова, 11",
+            "img": "/img/Contacts/item-1.png"
+        },
+        {
+            "id": "2",
+            "name": "Электронная почта",
+            "text": "gotovo.ds@gmail.com",
+            "href": "mailto:gotovo.ds@gmail.com",
+            "img": "/img/Contacts/item-2.png"
+        },
+        {
+            "id": "3",
+            "name": "Генеральный директор",
+            "text": "Кузмицкая Анастасия Игоревна",
+            "img": "/img/Contacts/item-3.png"
+        },
+        {
+            "id": "4",
+            "name": "Телефон горячей линии",
+            "text": "0 800 300 803",
+            "href": "tel:0800300803",
+            "img": "/img/Contacts/item-4.png"
+        }
+    ]
+}

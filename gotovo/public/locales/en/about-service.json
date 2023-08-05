@@ -1,0 +1,59 @@
+{
+    "title": "How customers are served",
+    "article": [
+        {
+            "id": "1",
+            "text": "It is very easy to navigate through the Document Service. The visitor who enters the room is met by the administrators at the reception, who will inform him or her on all issues and provide step-by-step instructions:"
+        },
+        {
+            "id": "2",
+            "list": [
+                {
+                    "id": "1",
+                    "text": "- Selection of the necessary services and registration in the electronic queue to the registrar."
+                },
+                {
+                    "id": "2",
+                    "text": "- Acceptance of documents and assistance in filling out the application."
+                },
+                {
+                    "id": "3",
+                    "text": "- Payment for the service."
+                },
+                {
+                    "id": "4",
+                    "text": "- Receiving the documents within the selected period."
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "text": "The office of the Document Service is divided into several areas:"
+        },
+        {
+            "id": "4",
+            "list": [
+                {
+                    "id": "1",
+                    "text": "- Marriage registration area."
+                },
+                {
+                    "id": "2",
+                    "text": "- Passport service area."
+                },
+                {
+                    "id": "3",
+                    "text": "- Area of ​​other services."
+                }
+            ]
+        },
+        {
+            "id": "5",
+            "text": "The average service time in \"GOTOVO\" - 20 minutes, issuance of documents 2 minutes."
+        },
+        {
+            "id": "6",
+            "text": "There is also a cafe with a summer terrace at the visitors' disposal."
+        }
+    ]
+}

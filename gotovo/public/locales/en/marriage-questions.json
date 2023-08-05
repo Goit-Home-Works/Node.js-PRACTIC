@@ -1,0 +1,75 @@
+{
+    "title": "FAQ's",
+    "dropdown": [
+        {
+            "id": "1",
+            "heading": "1. What are the operational hours to apply for marriage registration?",
+            "list": [
+                {
+                    "id": "1",
+                    "text": "On weekdays from 9:00 am to 8:00 pm and on weekends from 9:00 am to 6:00 pm. We work without breaks for lunch."
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "heading": "2. What is the minimum term for marriage registration with a foreigner?",
+            "list": [
+                {
+                    "id": "1",
+                    "text": "In accordance with the legislation of Ukraine, foreigners must submit documents for checking the legality of a foreigner's stay in the territory of Ukraine before the state registration of a marriage. After receiving a response from it, we can register a marriage within 24 hours."
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "heading": "3. Is it possible to come alone and submit documents?",
+            "list": [
+                {
+                    "id": "1",
+                    "text": "No, the documents must be submitted by the bride and groom in person."
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "heading": "4. Is it possible to apply online?",
+            "list": [
+                {
+                    "id": "1",
+                    "text": "No, there is no applying online. However, you can pre-order the date and time of the marriage registration by telephone and arrive within 24 hours to us to submit the documents."
+                }
+            ]
+        },
+        {
+            "id": "5",
+            "heading": "5. Is it possible to provide just a copy of the passport of a citizen of Ukraine?",
+            "list": [
+                {
+                    "id": "1",
+                    "text": "No, only original documents must be submitted for marriage registration."
+                }
+            ]
+        },
+        {
+            "id": "6",
+            "heading": "6. Is it possible to apply without original VAT code?",
+            "list": [
+                {
+                    "id": "1",
+                    "text": "Yes, a copy will be enough."
+                }
+            ]
+        },
+        {
+            "id": "7",
+            "heading": "7. Is it possible to send a scanned copy while a foreigner is abroad to have a quick check?",
+            "list": [
+                {
+                    "id": "1",
+                    "text": "No, documents for verification are sent only after applying for marriage registration. Payment is made after receipt of the verification results."
+                }
+            ]
+        }
+    ]
+}

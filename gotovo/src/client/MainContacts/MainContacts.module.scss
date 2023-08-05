@@ -1,0 +1,58 @@
+.contacts {
+    background-color: $bg-light;
+}
+
+.list {
+    display: grid;
+    grid-gap: 40px;
+}
+
+.heading {
+    text-align: left;
+}
+
+.img {
+    max-width: 480px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .contacts {
+        padding: 30px 15px 0;
+    }
+
+    .heading {
+        max-width: 65%;
+        margin-bottom: 40px;
+    }
+
+    .img {
+        width: 100%;
+        margin-top: 40px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 900px) {
+    .contacts {
+        padding: 30px 30px 0;
+    }
+
+    .img {
+        margin-top: 50px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 900px) {
+    .contacts {
+        position: relative;
+        padding: 60px 20px 140px;
+    }
+    
+    .img {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 480px;
+        height: 555px;
+    }
+}

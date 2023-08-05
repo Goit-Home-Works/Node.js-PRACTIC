@@ -1,0 +1,87 @@
+.gallery {
+    background-color: $bg-light;
+
+    @media (min-width: 320px) and (max-width: 800px) {
+        padding: 30px 3.5vw;
+    }
+
+    @media (min-width: 800px) and (max-width: 1260px) {
+        padding: 45px 3.5vw;
+    }
+
+    @media (min-width: 1260px) {
+        padding: 65px 0;
+    }
+}
+
+.content {
+    display: grid;
+}
+
+.item {
+    background: center/cover no-repeat;
+    box-shadow: 0px 10px 30px rgba(121, 85, 72, 0.1);
+    border-radius: 8px;
+
+    &._1 {
+        grid-area: item-1;
+        background-image: url('/img/marriage-gallery/img1.png');
+    }
+
+    &._2 {
+        grid-area: item-2;
+        background-image: url('/img/marriage-gallery/img2.png');
+    }
+
+    &._3 {
+        grid-area: item-3;
+        background-image: url('/img/marriage-gallery/img3.png');
+    }
+
+    &._4 {
+        grid-area: item-4;
+        background-image: url('/img/marriage-gallery/img4.png');
+    }
+
+    &._5 {
+        grid-area: item-5;
+        background-image: url('/img/marriage-gallery/img5.png');
+    }
+
+    &._6 {
+        grid-area: item-6;
+        background-image: url('/img/marriage-gallery/img6.png');
+    }
+}
+
+@media (min-width: 320px) and (max-width: 1260px) {
+    .content {
+        grid-gap: 3vw;
+        grid-template-areas: "item-1 item-1 item-1 item-1 item-1 item-1"  
+                             "item-2 item-2 item-3 item-3 item-3 item-3"
+                             "item-4 item-4 item-4 item-5 item-5 item-5";
+    }
+
+    .item {
+        border: 3px solid #fff;
+        height: 35vw;
+
+        &._6 {
+            display: none;
+        }
+    }
+}
+
+@media (min-width: 1260px) {
+    .content {
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: 460px 180px;
+        grid-gap: 20px;
+        grid-template-areas: "item-1 item-1 item-1 item-1 item-1"  
+                             "item-2 item-3 item-4 item-5 item-6";
+    }
+
+    .item {
+        border: 10px solid #fff;
+    }
+}

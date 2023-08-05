@@ -1,0 +1,108 @@
+.our-target {
+    background-color: $bg-light;
+
+    &-map {
+
+        &-text {
+            position: absolute;
+
+            &-bold {
+                font-weight: 700;
+            }
+
+            &-thin {
+                font-weight: 500;
+            }
+        }
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .our-target {
+        padding: 60px 15px 30px;
+    
+        .article {
+            margin-bottom: 70px;
+        }
+
+        .ornament {
+            display: none;
+        }
+    
+        &-map {
+            position: relative;
+
+            img {
+                width: 100%;
+            }
+    
+            &-text {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                top: 13%;
+                left: 50%;
+                transform: translateX(-50%);
+                width: max-content;
+    
+                &-bold {
+                    font-size: 24px;
+                    margin-bottom: 6px;
+
+                    &._slash {
+                        display: none;
+                    }
+                }
+    
+                &-thin {
+                    font-size: 14px;
+                    margin-bottom: 12px;
+                }
+
+                
+            }
+        }
+    }
+}
+
+@media (min-width: 481px) {
+    .our-target {
+        position: relative;
+        padding-bottom: 170px;
+    
+        &-content {
+            position: relative;
+        }
+    
+        .article {
+            max-width: 50%;
+            margin-bottom: 100px;
+        }
+    
+        &-map {
+            position: absolute;
+            right: 40px;
+            bottom: 0;
+    
+            &-text {
+                top: 120px;
+                left: 120px;
+                display: grid;
+                grid-auto-flow: column;
+                grid-template-rows: repeat(2, auto);
+                justify-content: center;
+                grid-gap: 20px;
+    
+                &-bold {
+                    font-size: 28px;
+                    justify-self: center;
+                }
+    
+                &-thin {
+                    font-size: 14px;
+                    justify-self: center;
+                }
+            }
+        }
+    }
+}

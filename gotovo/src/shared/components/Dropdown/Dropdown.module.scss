@@ -1,0 +1,150 @@
+.dropdown {
+    margin-bottom: 20px;
+}
+
+.btn {
+    position: relative;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2em;
+    background-color: #fff;
+    box-shadow: 0px 4px 4px rgba(121, 85, 72, 0.04), 0px 4px 16px rgba(121, 85, 72, 0.08);
+    border-radius: 4px;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+    &::before {
+        content: '';
+        position: absolute;
+        width: 28px;
+        height: 28px;
+        border: 1px solid $main-color;
+        box-shadow: 0px 4px 4px rgba(121, 85, 72, 0.25);
+        border-radius: 50%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        width: 6px;
+        height: 6px;
+        border-left: 2px solid $text-color;
+        border-bottom: 2px solid $text-color;
+        transform: rotate(-45deg);
+        top: calc(50% - 6px);
+        transition: 0.2s;
+    }
+
+    &.active::after {
+        transform: rotate(-225deg) ;
+        top: calc(50% - 2px);
+    }
+}
+
+.content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+.list-title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.item {
+    position: relative;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 20px;
+
+    &::before {
+        content: '';
+        position: absolute;
+        border: 1px solid $main-color;
+        box-shadow: 0px 2px 4px rgba(121, 85, 72, 0.25);
+        border-radius: 50%;
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        border-left: 2px solid $text-color;
+        border-bottom: 2px solid $text-color;
+        transform: rotate(-45deg);
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .btn {
+        padding: 16px 50px 16px 27px;
+
+        &::before {
+            right: 15px;
+        }
+
+        &::after {
+            right: 26px;
+        }
+    }
+
+    .list {
+        padding: 30px 40px 5px 60px;
+    }
+
+    .item {
+        &::before {
+            width: 20px;
+            height: 20px;
+            top: 0;
+            left: -40px;
+        }
+
+        &::after {
+            width: 8px;
+            height: 4px;
+            left: -34px;
+            top: 6px;
+        }
+    }
+}
+
+@media (min-width: 481px) {
+    .btn {
+        padding: 16px 75px 16px 27px;
+
+        &::before {
+            right: 24px;
+        }
+
+        &::after {
+            right: 35px;
+        }
+    }
+
+    .list {
+        padding: 30px 40px 5px 65px;
+    }
+
+    .item {
+        &::before {
+            width: 24px;
+            height: 24px;
+            top: -3px;
+            left: -44px;
+        }
+
+        &::after {
+            width: 10px;
+            height: 5px;
+            left: -37px;
+            top: 5px;
+        }
+    }
+}

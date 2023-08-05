@@ -1,0 +1,67 @@
+{
+    "btn": "Back",
+    "title": "Insurance",
+    "dropdown": [
+        {
+            "id": "1",
+            "heading": "Travel medical insurance",
+            "listTitle": "List of documents:",
+            "list": [
+                {
+                    "id": "1",
+                    "text": "Passport of a citizen of Ukraine for traveling abroad;"
+                },
+                {
+                    "id": "2",
+                    "text": "Taxpayer identification code;"
+                },
+                {
+                    "id": "3",
+                    "text": "For a child: the child's passport and the passport of the parent with whom the child is traveling."
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "heading": "International motor insurance \"Green Card\" system",
+            "listTitle": "List of documents:",
+            "list": [
+                {
+                    "id": "1",
+                    "text": "Passport for traveling abroad;"
+                },
+                {
+                    "id": "2",
+                    "text": "Taxpayer Identification Code;"
+                },
+                {
+                    "id": "3",
+                    "text": "Driver's license;"
+                },
+                {
+                    "id": "4",
+                    "text": "Vehicle registration certificate."
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "heading": "Obligatory insurance of civil liability of vehicles owners",
+            "listTitle": "List of documents:",
+            "list": [
+                {
+                    "id": "1",
+                    "text": "Passport or driver's license;"
+                },
+                {
+                    "id": "2",
+                    "text": "Taxpayer identification code;"
+                },
+                {
+                    "id": "3",
+                    "text": "Vehicle registration certificate."
+                }
+            ]
+        }
+    ]
+}

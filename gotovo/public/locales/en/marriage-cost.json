@@ -1,0 +1,180 @@
+{
+    "title": "The cost of marriage",
+    "openBtn": "Show more",
+    "closeBtn": "Roll up",
+    "list": [
+        {
+            "id": "1",
+            "name": "“Basic”",
+            "price": "6 777 UAH",
+            "list": [
+                {
+                    "id": "1",
+                    "text": "Wedding coordinator’s support"
+                },
+                {
+                    "id": "2",
+                    "text": "Solemn marriage registration by a specialist of the Department of State Registration"
+                },
+                {
+                    "id": "3",
+                    "text": "A ceremony without guests (up to 30 min)"
+                },
+                {
+                    "id": "4",
+                    "text": "Modern music score"
+                },
+                {
+                    "id": "5",
+                    "text": "The cost of marriage registration on Tuesday and Wednesday 10:00 am - 5:00 pm (on Tuesday till 7:00 pm)"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "name": "“Standart”",
+            "price": "9 189 UAH",
+            "list": [
+                {
+                    "id": "1",
+                    "text": "Wedding coordinator’s support"
+                },
+                {
+                    "id": "2",
+                    "text": "Solemn marriage registration by a specialist of the Department of State Registration"
+                },
+                {
+                    "id": "3",
+                    "text": "Preliminary booking of the date and time of the event"
+                },
+                {
+                    "id": "4",
+                    "text": "The ceremony including guests (up to 30 min/15 guests)"
+                },
+                {
+                    "id": "5",
+                    "text": "Marriage certificate front cover"
+                },
+                {
+                    "id": "6",
+                    "text": "Gift bouquet of flowers"
+                },
+                {
+                    "id": "7",
+                    "text": "Modern music score"
+                },
+                {
+                    "id": "8",
+                    "text": "The cost of marriage registration on Tuesday-Saturday 10:00 am - 5:00 pm (on Tuesday till 7:00 pm, on Saturday till 3:00 pm)"
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "name": "“Premium”",
+            "price": "13 141 UAH",
+            "list": [
+                {
+                    "id": "1",
+                    "text": "Wedding coordinator’s support"
+                },
+                {
+                    "id": "2",
+                    "text": "Solemn marriage registration by specialist of the Department of State Registration"
+                },
+                {
+                    "id": "3",
+                    "text": "Preliminary booking of the date and time of the event"
+                },
+                {
+                    "id": "4",
+                    "text": "The ceremony including guests (to 1 hour/ 30 guests)"
+                },
+                {
+                    "id": "5",
+                    "text": "Marriage certificate front cover"
+                },
+                {
+                    "id": "6",
+                    "text": "Gift bouquet of flowers"
+                },
+                {
+                    "id": "7",
+                    "text": "Modern music score"
+                },
+                {
+                    "id": "8",
+                    "text": "Preliminary consultation with the wedding ceremony coordinator"
+                },
+                {
+                    "id": "9",
+                    "text": "Marriage registration on the day of application"
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "name": "Marriage registration after hours",
+            "text": "services are provided when it is technically possible",
+            "price": "+ 1 225 UAH",
+            "list": [
+                {
+                    "id": "1",
+                    "text": "Only for packages \"Standard\" and \"Premium\""
+                },
+                {
+                    "id": "2",
+                    "text": "On Thursday - Friday 5:00 pm - 7:00 pm"
+                },
+                {
+                    "id": "3",
+                    "text": "On Saturday 3:00 pm - 6:00 pm"
+                },
+                {
+                    "id": "4",
+                    "text": "On Sunday and Monday 10:00 am - 6:00 pm"
+                },
+                {
+                    "id": "5",
+                    "text": "Registration of marriage on state holidays  + 3 596,6 UAH (only with the package \"Premium\")"
+                }
+            ]
+        },
+        {
+            "id": "5",
+            "name": "Additionally",
+            "list": [
+                {
+                    "id": "1",
+                    "text": "Apostille (certificates of marriage, birth, death, divorce, change of name, surname, extract from the Department of State Registration, court decisions, court certificates) - non-urgent 411 UAH, urgent 510 UAH (indicated cost does not include bank commission)"
+                },
+                {
+                    "id": "2",
+                    "text": "Simultaneous interpretation of the wedding ceremony (the value depends on language) – of 600 UAH. (indicated cost does not include bank commission)"
+                },
+                {
+                    "id": "3",
+                    "text": "Individual wedding ceremony “LOVE STORY” costs 2400 UAH (indicated cost does not include bank commission)"
+                }
+            ]
+        },
+        {
+            "id": "6",
+            "name": "Pay attention",
+            "list": [
+                {
+                    "id": "1",
+                    "text": "If the newlyweds (or one of them) are not citizens of Ukraine, they will additionally pay 2000 UAH for all packages and services"
+                },
+                {
+                    "id": "2",
+                    "text": "Registration of marriage on the day of application costs  extra 2000 UAH (service is provided only when it is technically possible to)"
+                },
+                {
+                    "id": "3",
+                    "text": "The indicated value does not include the bank charges"
+                }
+            ]
+        }
+    ]
+}

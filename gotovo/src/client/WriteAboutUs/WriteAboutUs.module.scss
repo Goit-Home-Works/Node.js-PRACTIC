@@ -1,0 +1,105 @@
+.section {
+    background-color: $bg-light;
+}
+
+.content {
+    display: grid;
+}
+
+.item {
+    position: relative;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    box-shadow: 0 5px 30px 7px #7955481a;
+
+    &::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(255, 255, 255);
+        border-radius: 7px;
+        transition: 0.3s;
+        opacity: 0.5;
+        z-index: 2;
+    }
+
+    &:hover::after {
+        opacity: 0;
+    }
+}
+
+.img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .section {
+        padding: 45px 20px 80px;
+    }
+
+    .content {
+        grid-gap: 20px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 950px) {
+    .section {
+        padding: 50px 30px 90px;
+    }
+
+    .content {
+        max-width: 500px;
+        grid-gap: 30px;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 950px) {
+    .content {
+        grid-template-areas: "ictv tsn"
+                             "ictv tsn"
+                             "trk tsn"
+                             "trk cor"
+                             "trk cor";
+    }
+
+    .item {
+        padding: 17px;
+
+        &._ictv {
+            grid-area: ictv;
+        }
+
+        &._tsn {
+            grid-area: tsn;
+        }
+
+        &._trk {
+            grid-area: trk;
+        }
+
+        &._cor {
+            grid-area: cor;
+        }
+    }
+}
+
+@media (min-width: 950px) {
+    .section {
+        padding: 60px 0 135px;
+    }
+
+    .content {
+        grid-template-columns: repeat(4, 200px);
+        justify-content: center;
+        grid-column-gap: 30px;
+    }
+
+    .item {
+        padding: 20px 25px;
+    }
+}

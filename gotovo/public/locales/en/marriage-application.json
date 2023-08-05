@@ -1,0 +1,31 @@
+{
+    "btn": "Back",
+    "title": "How to apply for state registration of marriage online",
+    "content": [
+        {
+            "id": "1",
+            "text": "To submit documents, you must register on the website"
+        },
+        {
+            "id": "2",
+            "list": [
+                {
+                    "id": "1",
+                    "text": "1. Choose a package of services, date and time"
+                },
+                {
+                    "id": "2",
+                    "text": "2. Fill out the form"
+                },
+                {
+                    "id": "3",
+                    "text": "3. Pay for the service in accordance with the selected package"
+                },
+                {
+                    "id": "4",
+                    "text": "4. Add a receipt of payment and scanned documents, put an electronic digital signature"
+                }
+            ]
+        }
+    ]
+}

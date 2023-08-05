@@ -1,0 +1,17 @@
+{
+    "title": "About us",
+    "article": [
+        {
+            "id": "1",
+            "text": "The document-Service \"GOTOVO\" is a modern establishment that provides more than 130 types of public services in one building with completely new approaches and principles, quickly and conveniently for everyone."
+        },
+        {
+            "id": "2",
+            "text": "Respecting people!"
+        },
+        {
+            "id": "3",
+            "text": "Our goal is to destroy the everyday corruption in the sphere of licensing, to simplify the relationship between citizens and the state, to improve lives of Ukrainians by providing fast, convenient and high-quality public services."
+        }
+    ]
+}

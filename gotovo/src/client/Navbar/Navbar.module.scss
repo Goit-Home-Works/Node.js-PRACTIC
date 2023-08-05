@@ -1,0 +1,22 @@
+.nav {
+    background-color: $bg-light;
+
+    @media (min-width: 320px) and (max-width: 1260px) {
+        position: fixed;
+        width: 100vw;
+        top: 0;
+        left: 0;
+        padding: 10px 25px;
+        z-index: 10;
+    }
+
+    @media (min-width: 1260px) {
+        padding: 10px 30px;
+    }
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

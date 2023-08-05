@@ -1,0 +1,8 @@
+{
+  "title": "Enter",
+  "form": {
+    "email": "Email",
+    "password": "Password",
+    "submitButton": "Enter"
+  }
+}

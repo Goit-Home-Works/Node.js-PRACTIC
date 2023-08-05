@@ -1,0 +1,121 @@
+{
+    "title": "Required documents",
+    "tabs": [
+        {
+            "id": "1",
+            "title": "Marriage registration between citizens of Ukraine",
+            "content": [
+                {
+                    "id": "1",
+                    "text": "The passport of the citizen of Ukraine (when providing the id-card additionally the application № 13 \"Certificate of registration of the place of residence of the person\" is submitted);"
+                },
+                {
+                    "id": "2",
+                    "text": "VAT identification number;"
+                },
+                {
+                    "id": "3",
+                    "text": "Persons who have been seized a passport of a citizen of Ukraine, due to consular mainstream in another country, submit a passport of a citizen of Ukraine for traveling abroad with a corresponding mark in the passport;"
+                },
+                {
+                    "id": "4",
+                    "text": "If the person has previously been married, an additional document is provided confirming the termination of the previous marriage or invalidation (marriage certificate issued in the name of the customer; court decision to annul the marriage, invalidating the marriage, which came into force from the death certificate of one of the spouses; the conclusion of the state registration department of civil status acts on the annulment of the marriage record, which is invalid, etc.)."
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "title": "Marriage registration between a man and a woman who are not citizens of Ukraine (or one of them)",
+            "content": [
+                {
+                    "id": "1",
+                    "text": "Foreign passport and a certified copy of the passport with a certified translation of the passport into Ukrainian;"
+                },
+                {
+                    "id": "2",
+                    "text": "If the foreigner has a residence permit, then an additional permit for temporary or permanent residence in Ukraine is provided with a mark in the passport on the issue of this type (in providing the residence permit as an id-card  the application #13 \"Certificate of residence registration of person\" is submitted additionally);"
+                },
+                {
+                    "id": "3",
+                    "text": "If the person has already been married, the certificated copy of the document  confirming the previous dissolution of the marriage which is authorized (apostilled) appropriately as and when required with the certificated translation of all pages into Ukrainian should be provided additionally;"
+                },
+                {
+                    "id": "4",
+                    "text": "Also note that before applying for a marriage, you need to check the legality of the foreigner's stay in Ukraine. To do this, you need to contact us with all the above-mentioned documents, and we will send a scanned copy of the alien’s passport and its transfer for verification to the State Migration Service of Ukraine."
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "title": "Apostillization",
+            "content": [
+                {
+                    "id": "1",
+                    "text": "Passport of a citizen of Ukraine"
+                },
+                {
+                    "id": "2",
+                    "text": "VAT identification number"
+                },
+                {
+                    "id": "3",
+                    "text": "The document for which apostille is intended (marriage certificate, birth certificate, certificate of divorce, change of surname)."
+                },
+                {
+                    "id": "4",
+                    "type": "text",
+                    "text": "Apostille can be placed on documents issued by departments of state registration of civil status, structural subdivisions of the territorial bodies of the Ministry of Justice, courts, and also on documents issued by notaries of Ukraine:"
+                },
+                {
+                    "id": "5",
+                    "text": "An extract from the Unified State Register of legal entities and individual entrepreneurs;"
+                },
+                {
+                    "id": "6",
+                    "text": "Birth certificate;"
+                },
+                {
+                    "id": "7",
+                    "text": "Marriage certificate;"
+                },
+                {
+                    "id": "8",
+                    "text": "Certificate of divorce;"
+                },
+                {
+                    "id": "9",
+                    "text": "Death certificate;"
+                },
+                {
+                    "id": "10",
+                    "text": "birth certificate of the child;"
+                },
+                {
+                    "id": "11",
+                    "text": "Certificates on the change of name, surname, patronymic;"
+                },
+                {
+                    "id": "12",
+                    "text": "Court decisions;"
+                },
+                {
+                    "id": "13",
+                    "text": "Judicial certificates;"
+                },
+                {
+                    "id": "14",
+                    "text": "Statements, powers of attorney, legal, statutory and founding documents, other documents issued by notaries of Ukraine;"
+                },
+                {
+                    "id": "15",
+                    "text": "Others"
+                },
+                {
+                    "id": "16",
+                    "type": "text",
+                    "text": "We do not place Apostille on laminated documents and documents issued by bodies of the Ukrainian SSR or the USSR."
+                }
+            ]
+        }
+    ]
+}

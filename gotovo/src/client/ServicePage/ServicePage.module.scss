@@ -1,0 +1,89 @@
+.section {
+    position: relative;
+    background-color: $bg-light;
+
+    @media (min-width: 320px) and (max-width: 480px) {
+        padding: 30px 15px 80px;
+    }
+
+    @media (min-width: 481px) and (max-width: 1260px) {
+        padding: 45px 30px 110px;
+    }
+
+    @media (min-width: 1260px) {
+        padding: 50px 0 150px;
+    }
+}
+
+.header {
+    padding-bottom: 50px;
+}
+
+.logo {
+    height: 80px;
+    margin: 0 auto 20px;
+    display: block;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    color: $text-color;
+    text-align: center;
+}
+
+@media (min-width: 320px) and (max-width: 1260px) {
+
+    .header {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    .btn {
+        display: none;
+    }
+
+    .mob-btn {
+        position: absolute;
+        width: 36px;
+        height: 36px;
+        border: 2px solid $main-color;
+        border-radius: 50%;
+        top: 30px;
+        left: 25px;
+
+        &::after {
+            content: '';
+            position: absolute;
+            width: 8px;
+            height: 8px;
+            border-left: 2px solid $text-color;
+            border-bottom: 2px solid $text-color;
+            top: 12px;
+            left: 13px;
+            transform: rotate(45deg);
+        }
+    }
+}
+
+@media (min-width: 1260px) {
+    .header {
+        position: relative;
+    }
+
+    .btn {
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    .mob-btn {
+        display: none;
+    }
+
+    .title {
+        max-width: 50%;
+        margin: 0 auto;
+    }
+}

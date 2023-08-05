@@ -1,0 +1,75 @@
+{
+    "btn": "Подробнее",
+    "services-items": [
+        {
+            "id": "1",
+            "img": "/img/Services/icon-1.png",
+            "href": "/services/marriage-application",
+            "target": "_self",
+            "text": "Как подать заявку на брак онлайн"
+        },
+        {
+            "id": "2",
+            "img": "/img/Services/icon-2.png",
+            "href": "/services/insurance",
+            "target": "_self",
+            "text": "Страхование"
+        },
+        {
+            "id": "3",
+            "img": "/img/Services/icon-3.png",
+            "href": "https://gotovo.pasport.org.ua/",
+            "target": "_blank",
+            "text": "Паспортный сервис"
+        },
+        {
+            "id": "4",
+            "img": "/img/Services/write6.png",
+            "href": "/services/written-translation",
+            "target": "_self",
+            "text": "Письменный перевод"
+        },
+        {
+            "id": "5",
+            "img": "/img/Services/notary3.png",
+            "href": "/services/notarized-translation",
+            "target": "_self",
+            "text": "Нотариальный перевод"
+        },
+        {
+            "id": "6",
+            "img": "/img/Services/icon-4.png",
+            "href": "/services/apostillization",
+            "target": "_self",
+            "text": "Апостилизация документов"
+        },
+        {
+            "id": "7",
+            "img": "/img/Services/icon-5.png",
+            "href": "/services/events",
+            "target": "_self",
+            "text": "Проведение мероприятий"
+        },
+        {
+            "id": "8",
+            "img": "/img/Services/icon-6.png",
+            "href": "https://novaposhta.ua/",
+            "target": "_blank",
+            "text": "Новая Почта №400"
+        },
+        {
+            "id": "9",
+            "img": "/img/Services/icon-7.png",
+            "href": "https://www.ups.com/ua/uk/Home.page",
+            "target": "_blank",
+            "text": "UPS"
+        },
+        {
+            "id": "10",
+            "img": "/img/Services/diya-logo.png",
+            "href": "https://ca.diia.gov.ua/",
+            "target": "_blank",
+            "text": "\"Дія\" ЭЦП"
+        }
+    ]
+}

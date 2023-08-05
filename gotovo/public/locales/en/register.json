@@ -1,0 +1,10 @@
+{
+  "title": "Create profile",
+  "form": {
+    "email": "Email",
+    "phone": "Phone",
+    "fullName": "Full Name",
+    "password": "Password",
+    "submitButton": "Register"
+  }
+}

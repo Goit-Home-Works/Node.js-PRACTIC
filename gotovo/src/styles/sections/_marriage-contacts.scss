@@ -1,0 +1,80 @@
+.marriage-contacts {
+    background-color: $bg-light;
+
+    &-form {
+        display: grid;
+    }
+
+    &-input {
+        width: 100%;
+        padding: 16px 27px;
+        background-color: #fff;
+        box-shadow: 0px 4px 4px rgba(121, 85, 72, 0.04), 0px 4px 16px rgba(121, 85, 72, 0.08);
+        border-radius: 4px;
+        margin-bottom: 30px;
+        
+        &:focus {
+            outline: 2px solid $main-color;
+        }
+    }
+
+    &-schedule {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        grid-gap: 10px;
+        justify-content: start;
+    }
+
+    &-item {
+        display: inline-block;
+        padding-left: 50px;
+        margin-right: 38px;
+        margin-bottom: 25px;
+    }
+
+    &-map {
+        width: 100%;
+        height: 390px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .marriage-contacts {
+        padding: 30px 15px;
+
+        &-btn {
+            width: 100%;
+        }
+
+        &-form {
+            margin-bottom: 50px;
+        }
+
+        &-map {
+            margin-top: 30px;
+        }
+    }
+}
+
+@media (min-width: 481px) {
+    .marriage-contacts {
+        padding: 60px 0;
+
+        &-content {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-column-gap: 130px;
+        }
+
+        &-label {
+            text-align: start;
+        }
+
+        &-btn {
+            padding: 12px 30px;
+            width: max-content;
+            justify-self: end;
+        }
+    }
+}

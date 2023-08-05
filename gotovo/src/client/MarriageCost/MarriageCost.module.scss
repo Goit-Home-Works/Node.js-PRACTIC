@@ -1,0 +1,23 @@
+.section {
+    background-color: $bg-light;
+
+    @media (min-width: 320px) and (max-width: 480px) {
+        padding: 30px 15px;
+    }
+
+    @media (min-width: 480px) and (max-width: 1260px) {
+        padding: 45px 30px;
+    }
+}
+
+@media (min-width: 1260px) {
+    .section {
+        padding: 80px 0;        
+    }
+
+    .list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 35px;
+    }
+}

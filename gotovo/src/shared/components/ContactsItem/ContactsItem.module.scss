@@ -1,0 +1,36 @@
+@import 'src/styles/variables';
+
+.item {
+    position: relative;
+    padding-left: 50px;
+}
+
+.icon {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 10px;
+    left: 0;
+    background-color: $main-color;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+}
+
+.name {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.text, .link {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.2em;
+}
+
+.link {
+    text-decoration: none;
+    color: $text-color;
+}

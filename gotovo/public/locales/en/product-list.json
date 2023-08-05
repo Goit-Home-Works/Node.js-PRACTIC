@@ -1,0 +1,94 @@
+{
+    "input": "Phone number",
+    "btn": "Send the order",
+    "product-items": [
+        {
+            "img": "/img/branded-product/papka.jpg",
+            "name": "Marriage certificate folder \"GOTOVO\"",
+            "description": "Marriage certificate folder is first and the most important document of the family. Certificate folder is a great accessory, that will keep your document intact. Moreover, we are sure, that precious things like that should be kept the best way!",
+            "features": [
+                {
+                    "id": "1",
+                    "text": "Front cover: hard"
+                },
+                {
+                    "id": "2",
+                    "text": "Size: 215 * 265"
+                },
+                {
+                    "id": "3",
+                    "text": "Material: synthetic leather"
+                }
+            ],
+            "price": "660 UAH"
+        },
+        {
+            "img": "/img/branded-product/papka-2.jpg",
+            "name": "Marriage certificate folder \"Exclusive\"",
+            "description": "Certificate folder is beautiful and classy accessory for first family document. Comfortable front cover with unique design will keep your document intact. This bright and creativе front cover will bring celebratory atmosphere to your family life.",
+            "features": [
+                {
+                    "id": "1",
+                    "text": "Front cover: hard"
+                },
+                {
+                    "id": "2",
+                    "text": "Size: 215 * 265"
+                },
+                {
+                    "id": "3",
+                    "text": "Material: synthetic leather Vintage"
+                }
+            ],
+            "price": "795 UAH"
+        },
+        {
+            "img": "/img/branded-product/pen.jpg",
+            "name": "Metalic pen \"GOTOVO\"",
+            "description": "Pen “GOTOVO” is a classy accessory for writing. Beautiful, qualitative, compact and comfortable one will be in harmony with our notebook “GOTOVO”.",
+            "features": [
+                {
+                    "id": "1",
+                    "text": "Type: ballpoint pen"
+                },
+                {
+                    "id": "2",
+                    "text": "Material: metal"
+                },
+                {
+                    "id": "3",
+                    "text": "Colour of the hull: silver"
+                },
+                {
+                    "id": "4",
+                    "text": "Colour of refill: blue"
+                }
+            ],
+            "price": "50.40 UAH"
+        },
+        {
+            "img": "/img/branded-product/notebook.jpg",
+            "name": "Notebook \"GOTOVO\"",
+            "description": "Notebook “GOTOVO” is great for your best ideas and plans! Inner part of notebook is meant to write down your genius ideas!",
+            "features": [
+                {
+                    "id": "1",
+                    "text": "Size: A5"
+                },
+                {
+                    "id": "2",
+                    "text": "Colour: black"
+                },
+                {
+                    "id": "3",
+                    "text": "Front cover: soft"
+                },
+                {
+                    "id": "4",
+                    "text": "Material: synthetic leather"
+                }
+            ],
+            "price": "217 UAH"
+        }
+    ]
+}

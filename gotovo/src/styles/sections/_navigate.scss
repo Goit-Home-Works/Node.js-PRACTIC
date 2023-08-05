@@ -1,0 +1,42 @@
+.navigate {
+    background-color: $bg-light;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .navigate {
+        padding: 30px 15px;
+
+        .ornament {
+            display: none;
+        }
+    
+        .btn {
+            width: 100%;
+            margin-top: 40px;
+        }
+    }
+}
+
+@media (min-width: 481px) {
+    .navigate {
+        padding: 130px 0;
+        background-color: $bg-light;
+    
+        &-content {
+            position: relative;
+        }
+        
+        .article {
+            max-width: 50%;
+        }
+    
+        &-container {
+            display: flex;
+            align-items: center;
+    
+            .btn {
+                margin-left: 120px;
+            }
+        }
+    }
+}

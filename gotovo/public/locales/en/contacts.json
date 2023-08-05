@@ -1,0 +1,32 @@
+{
+    "heading-1": "We are glad to help you",
+    "heading-2": "Contacts",
+    "list": [
+        {
+            "id": "1",
+            "name": "Address",
+            "text": "01010, Kyiv, Henerala Almazova St, 11",
+            "img": "/img/Contacts/item-1.png"
+        },
+        {
+            "id": "2",
+            "name": "Email",
+            "text": "gotovo.ds@gmail.com",
+            "href": "mailto:gotovo.ds@gmail.com",
+            "img": "/img/Contacts/item-2.png"
+        },
+        {
+            "id": "3",
+            "name": "CEO",
+            "text": "Kuzmytska Anastasiia Ihorivna",
+            "img": "/img/Contacts/item-3.png"
+        },
+        {
+            "id": "4",
+            "name": "Hotline Phone",
+            "text": "0 800 300 803",
+            "href": "tel:0800300803",
+            "img": "/img/Contacts/item-4.png"
+        }
+    ]
+}

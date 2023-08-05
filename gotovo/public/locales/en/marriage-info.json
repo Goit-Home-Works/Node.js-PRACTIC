@@ -1,0 +1,60 @@
+{
+    "list": [
+        {
+            "id": "1",
+            "title": "Marriage registration without queues:",
+            "list": [
+                {
+                    "id": "1",
+                    "text": "Each couple in love wants to get to the inner sanctum as soon as possible - a place where their relationship will be legalized, however, a huge stream of people does not allow you to quickly finish the long procedure. Can you jump ahead through the queue?"
+                },
+                {
+                    "id": "2",
+                    "text": "Yes, you can do it with us!"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "title": "Modern wedding ceremony hall:",
+            "list": [
+                {
+                    "id": "1",
+                    "text": "Do you want to make you event bright, up-to-day and unforgettable? Do you want to remember this day for all your lifetime and show your children and grandchildren weddings photos?"
+                },
+                {
+                    "id": "2",
+                    "text": "You can find all of this by visiting our wedding ceremony hall!"
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "title": "European script for the wedding ceremony:",
+            "list": [
+                {
+                    "id": "1",
+                    "text": "Do you dream about true European wedding? The newlywed will get great pleasure about the atmosphere and absence of “one size fits all” ceremony."
+                },
+                {
+                    "id": "2",
+                    "text": "Individual attitude towards each couple, and the main – your event is make by professionals."
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "title": "Incredible acoustic music:",
+            "list": [
+                {
+                    "id": "1",
+                    "text": "You’ll be amazed not only by widespread hall, panoramic windows, the lighting, competent organization of the process and incredible musical score."
+                },
+                {
+                    "id": "2",
+                    "text": "Your wedding ceremony is Mendelson free, but modern music on your event."
+                }
+            ]
+        }
+    ]
+}

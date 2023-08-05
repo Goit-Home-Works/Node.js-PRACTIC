@@ -1,0 +1,51 @@
+{
+    "btn": "Back",
+    "title": "Notarized translation",
+    "content": [
+        {
+            "id": "1",
+            "text": "Notarized written translation of the document:"
+        },
+        {
+            "id": "2",
+            "list": [
+                {
+                    "id": "1",
+                    "text": "Passport"
+                },
+                {
+                    "id": "2",
+                    "text": "Marriage certificate"
+                },
+                {
+                    "id": "3",
+                    "text": "Divorce certificate"
+                },
+                {
+                    "id": "4",
+                    "text": "Tax identification number"
+                },
+                {
+                    "id": "5",
+                    "text": "Birth certificate"
+                },
+                {
+                    "id": "6",
+                    "text": "GED and Diploma (without insert)"
+                },
+                {
+                    "id": "7",
+                    "text": "Certificate of criminal record"
+                },
+                {
+                    "id": "8",
+                    "text": "Death certificate and other documents"
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "text": "Minimum value of notarized translation is 530 UAH. The value of service depends on language and amount of signs of the original document (indicated cost does not include bank commission)."
+        }
+    ]
+}

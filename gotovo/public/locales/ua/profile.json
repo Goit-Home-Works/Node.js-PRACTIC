@@ -1,0 +1,45 @@
+{
+  "form-title": "Подати заявку на заключення шлюбу",
+  "form": {
+    "fullNameOfTheHusband": {
+      "label": "Повне ім'я чоловіка",
+      "placeholder": "ПІБ чоловіка"
+    },
+    "wifeSFullName": {
+      "label": "Повне ім'я жінки",
+      "placeholder": "ПІБ жінки"
+    },
+    "husbandPassport": {
+      "label": "Номер паспорту чоловіку",
+      "placeholder": "ЕН345555"
+    },
+    "husbandIssuedBy": {
+      "label": "Де і ким виданний паспорт чоловіку",
+      "placeholder": "Де і ким виданний паспорт чоловіку"
+    },
+    "wifePassport": {
+      "label": "Номер паспорту жінки",
+      "placeholder": "ЕН345555"
+    },
+    "wifeIssuedBy": {
+      "label": "Де і ким виданний паспорт жінці",
+      "placeholder": "Де і ким виданний паспорт жінці"
+    },
+    "dateOfBirth": {
+      "label": "Дата народження чоловіка",
+      "placeholderText": "Дата народження чоловіка"
+    },
+    "wifeDateOfBirth": {
+      "label": "Дата народження жінки",
+      "placeholderText": "Дата народження жінки"
+    },
+    "phone": {
+      "label": "Телефон",
+      "placeholder": "(___) ___-____"
+    },
+    "email": {
+      "label": "Email",
+      "placeholder": "Email"
+    }
+  }
+}

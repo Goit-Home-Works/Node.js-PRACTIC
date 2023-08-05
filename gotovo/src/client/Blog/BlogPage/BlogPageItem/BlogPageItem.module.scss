@@ -1,0 +1,44 @@
+.item {
+    background-color: #fff;
+    box-shadow: 0px 10px 30px rgba(121, 85, 72, 0.1);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.img {
+    width: 100%;
+}
+
+.title {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.2em;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.text {
+    font-size: 18px;
+    line-height: 1.2em;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .info {
+        padding: 30px 22px;
+    }
+
+    .date {
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 481px) {
+    .info {
+        padding: 30px 40px;
+    }
+
+    .date {
+        margin-top: 40px;
+    }
+}

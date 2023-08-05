@@ -1,0 +1,10 @@
+{
+  "title": "Создать аккаунт",
+  "form": {
+    "email": "Email",
+    "phone": "Телефон",
+    "fullName": "ФИО",
+    "password": "Пароль",
+    "submitButton": "Зарегистрироваться"
+  }
+}

@@ -1,0 +1,8 @@
+.list {
+    @media (min-width: 481px) {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 200px);
+        justify-content: center;
+        grid-gap: 30px;
+    }
+}

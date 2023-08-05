@@ -1,0 +1,38 @@
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .buttons {
+        justify-content: space-around;
+        margin: 40px 0;
+    }
+
+    .btn {
+        width: 100px;
+    }
+}
+
+@media (min-width: 481px) {
+    .buttons {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .btn {
+        width: 120px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 900px) {
+    .buttons {
+        margin: 50px 0;
+    }
+}
+
+@media (min-width: 900px) {
+    .buttons {
+        margin: 50px 0 0;
+    }
+}

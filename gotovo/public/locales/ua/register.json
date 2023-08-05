@@ -1,0 +1,10 @@
+{
+  "title": "Створити Акаунт",
+  "form": {
+    "email": "Email",
+    "phone": "Телефон",
+    "fullName": "ПІБ",
+    "password": "Пароль",
+    "submitButton": "Зараєструватися"
+  }
+}

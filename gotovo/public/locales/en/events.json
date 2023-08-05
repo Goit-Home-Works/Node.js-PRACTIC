@@ -1,0 +1,22 @@
+{
+    "btn": "Back",
+    "title": "Hosting the event",
+    "content": [
+        {
+            "id": "1",
+            "text": "Comfortable location and cozy atmosphere – all these factors contribute to success of the event."
+        },
+        {
+            "id": "2",
+            "text": "We propose you our hall “Gotovo” for different types of event: photoshoots, сonferetions, training sessions, master classes, poetry reading, books launch, social events, etc."
+        },
+        {
+            "id": "3",
+            "text": "Our location is – Pecherska metro station, floor space – 80 meters square. Hall is equipped with all necessary equipment: chairs, tables, TV, video camera for videoconferences, microphones, speakers, air conditioner, flipchart and of course Wi-Fi."
+        },
+        {
+            "id": "4",
+            "text": "Holding event at “Gotovo” costs 1200 UAH per hour (indicated cost does not include bank commission)."
+        }
+    ]
+}

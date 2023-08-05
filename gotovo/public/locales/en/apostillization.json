@@ -1,0 +1,90 @@
+{
+    "btn": "Back",
+    "title": "Apostilization of documents",
+    "content": [
+        {
+            "id": "1",
+            "text": "Apostille in the Ministry of Justice of Ukraine (marriage certificate, birth certificate, death certificate, divorce certificate, first name change certificate, second name change certificate, extract from registry office, court decisions, court certificate)"
+        },
+        {
+            "id": "2",
+            "list": [
+                {
+                    "id": "1",
+                    "text": "not urgent - 411 UAN"
+                },
+                {
+                    "id": "2",
+                    "text": "urgent - 510 UAN"
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "text": "(the exact prices does not include the bank-fee)."
+        },
+        {
+            "id": "4",
+            "text": "Apostille in the Ministry of Foreign Affairs of Ukraine (medical certificate form of the Ministry of Health of Ukraine № 079,082 / 0, certificate of no criminal record / criminal record, other certificates issued by the Ministry of Internal Affairs, certificate of citizenship, other documents issued by the State Migration Service units)"
+        },
+        {
+            "id": "5",
+            "list": [
+                {
+                    "id": "1",
+                    "text": "not urgent - 760 UAH"
+                },
+                {
+                    "id": "2",
+                    "text": "urgent - 960 UAH"
+                }
+            ]
+        },
+        {
+            "id": "6",
+            "text": "(the exact prices does not include the bank-fee)."
+        },
+        {
+            "id": "7",
+            "text": "Apostille in the Ministry of Education and Science of Ukraine, without request, only for documents submitted to State electronic database (diplomas of education, certificates of PhD, GED, certificates from educational institutions, archival record)"
+        },
+        {
+            "id": "8",
+            "list": [
+                {
+                    "id": "1",
+                    "text": "not urgent - 910 UAH"
+                },
+                {
+                    "id": "2",
+                    "text": "urgent - 1760 UAH"
+                }
+            ]
+        },
+        {
+            "id": "9",
+            "text": "(the exact prices does not include the bank-fee)."
+        },
+        {
+            "id": "10",
+            "text": "Apostille in the Ministry of Education and Science of Ukraine, with a request (diplomas of education, certificates of PhD, GED, certificates from educational institutions, archival record)"
+        },
+        {
+            "id": "11",
+            "list": [
+                {
+                    "id": "1",
+                    "text": "not urgent - 760 UAH"
+                },
+                {
+                    "id": "2",
+                    "text": "urgent - 1060 UAH"
+                }
+            ]
+        },
+        {
+            "id": "12",
+            "text": "(the exact prices does not include the bank-fee)."
+        }
+    ]
+}
